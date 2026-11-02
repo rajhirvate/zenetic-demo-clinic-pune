@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Clinic in Baner, Pune | Demo Clinic, Baner</title>
+  <meta name="description" content="Sample website for a multi-specialty family clinic in Baner, Pune. Fictional demo by Zenetic — services, timings and an appointment form. Not a real clinic.">
+  <meta name="author" content="Zenetic">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#084743">
+  <meta name="color-scheme" content="light">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="canonical" href="https://zenetic-demo-clinic-pune.vercel.app/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Demo Clinic, Baner">
+  <meta property="og:title" content="Clinic in Baner, Pune | Demo Clinic, Baner">
+  <meta property="og:description" content="Sample website for a multi-specialty family clinic in Baner, Pune. Fictional demo by Zenetic — services, timings and an appointment form. Not a real clinic.">
+  <meta property="og:url" content="https://zenetic-demo-clinic-pune.vercel.app/">
+  <meta property="og:image" content="https://zenetic-demo-clinic-pune.vercel.app/og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Demo Clinic, Baner — sample website by Zenetic, not a real clinic.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clinic in Baner, Pune | Demo Clinic, Baner">
+  <meta name="twitter:description" content="Sample website for a multi-specialty family clinic in Baner, Pune. Fictional demo by Zenetic — services, timings and an appointment form. Not a real clinic.">
+  <meta name="twitter:image" content="https://zenetic-demo-clinic-pune.vercel.app/og.png">
+  <meta name="twitter:image:alt" content="Demo Clinic, Baner — sample website by Zenetic, not a real clinic.">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://zenetic-demo-clinic-pune.vercel.app/#website",
+        "url": "https://zenetic-demo-clinic-pune.vercel.app/",
+        "name": "Demo Clinic, Baner",
+        "description": "Fictional sample website for a multi-specialty family clinic in Baner, Pune. Not a real clinic. Produced by Zenetic as a pitch demo.",
+        "inLanguage": "en-IN",
+        "publisher": { "@id": "https://zenetic-demo-clinic-pune.vercel.app/#clinic" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://zenetic-demo-clinic-pune.vercel.app/#webpage",
+        "url": "https://zenetic-demo-clinic-pune.vercel.app/",
+        "name": "Clinic in Baner, Pune | Demo Clinic, Baner",
+        "description": "Sample website for a multi-specialty family clinic in Baner, Pune. Fictional demo by Zenetic — services, timings and an appointment form. Not a real clinic.",
+        "isPartOf": { "@id": "https://zenetic-demo-clinic-pune.vercel.app/#website" },
+        "about": { "@id": "https://zenetic-demo-clinic-pune.vercel.app/#clinic" },
+        "inLanguage": "en-IN",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://zenetic-demo-clinic-pune.vercel.app/og.png"
+        }
+      },
+      {
+        "@type": ["MedicalClinic", "LocalBusiness"],
+        "@id": "https://zenetic-demo-clinic-pune.vercel.app/#clinic",
+        "name": "Demo Clinic, Baner",
+        "description": "Fictional sample website for a multi-specialty family clinic in Baner, Pune. Not a real clinic. Produced by Zenetic (zenetic.in) as a pitch demo.",
+        "url": "https://zenetic-demo-clinic-pune.vercel.app/",
+        "telephone": "+919000000000",
+        "email": "hello@democlinic.example",
+        "image": "https://zenetic-demo-clinic-pune.vercel.app/og.png",
+        "logo": "https://zenetic-demo-clinic-pune.vercel.app/apple-touch-icon.png",
+        "currenciesAccepted": "INR",
+        "paymentAccepted": "Cash, UPI, Card",
+        "medicalSpecialty": ["PrimaryCare", "Pediatric", "Gynecologic", "Endocrine", "Physiotherapy", "LaboratoryScience", "PublicHealth"],
+        "knowsLanguage": ["en", "hi", "mr"],
+        "areaServed": "Baner, Pune",
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Baner%2C+Pune%2C+Maharashtra",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop 12, Sample Plaza, Baner Road, Baner",
+          "addressLocality": "Pune",
+          "addressRegion": "Maharashtra",
+          "postalCode": "411045",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.559,
+          "longitude": 73.7845
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "13:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "17:00",
+            "closes": "20:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "13:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "17:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "10:00",
+            "closes": "13:00"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://zenetic-demo-clinic-pune.vercel.app/#faq",
+        "isPartOf": { "@id": "https://zenetic-demo-clinic-pune.vercel.app/#website" },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Demo Clinic, Baner a real clinic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Demo Clinic, Baner is a fictional clinic created for this sample website. Zenetic (zenetic.in), a digital agency in Pune, uses the page to show real clinics how their own site could look. The address, phone number, doctors, timings and fees are placeholders."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the clinic shown on this page?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The sample address is Shop 12, Sample Plaza, Baner Road, Baner, Pune, Maharashtra 411045. The map is centred on the Baner area of Pune in general. It is not a pin for a real clinic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the clinic timings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sample hours are Monday to Friday, 9:00 am to 1:00 pm and 5:00 pm to 8:30 pm; Saturday, 9:00 am to 1:00 pm and 5:00 pm to 8:00 pm; and Sunday, 10:00 am to 1:00 pm. These times are for the demo layout only."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you accept walk-in patients?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On this sample timetable, morning hours for the general physician are described as open to walk-ins. Paediatrics, women's health and physiotherapy are shown as appointment-first. A real clinic would confirm availability on the day. This demo cannot take a walk-in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I book an appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the appointment request form on this page, or the Call and WhatsApp links. The form only checks that the fields look complete. Submitting it does not send or store your details. You can then choose to open WhatsApp with the same details, still using the sample number +91 90000 00000."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer cashless insurance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This demo does not list any real insurer or cashless tie-up. A clinic website might say that some cashless facilities can be arranged, and that patients should confirm the insurer, the treatment and the approval before the visit. Cash, card and UPI are shown here only as sample payment methods."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is parking available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The fictional address mentions visitor parking in the basement of Sample Plaza. That note exists for the layout only. It is not a real car park, and this page cannot reserve a bay."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you collect lab samples from home?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Home sample collection is listed as a sample service for Baner and nearby parts of Pune, with a morning window of 7:00 am to 10:00 am. This website does not collect samples, book a phlebotomist or share results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which departments are listed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The sample departments are general physician, paediatrics, women's health, diabetes and thyroid care, physiotherapy, diagnostics and lab, vaccination, and health check-up packages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I bring, and how would I pay?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A real clinic visit usually needs a photo ID, earlier reports and a list of current medicines. You do not need to bring anything to use this demo. Sample payment methods shown are cash, card and UPI, with placeholder fees in rupees that are not real charges."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="has-sticky" data-wa="919000000000">
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="demo-banner" role="note">
+    <p>Demo website by <a href="https://zenetic.in" target="_blank" rel="noopener noreferrer">Zenetic<span class="sr-only"> (opens in a new tab)</span></a> – sample content, not a real clinic.</p>
+  </div>
+
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M8 4.8h2.2l1.1 2.8-1.6 1a12 12 0 0 0 5.7 5.7l1-1.6 2.8 1.1V18a1.6 1.6 0 0 1-1.7 1.6A14.6 14.6 0 0 1 4.4 6.5 1.6 1.6 0 0 1 6 4.8H8z"/>
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M5 6.5A2.5 2.5 0 0 1 7.5 4h9A2.5 2.5 0 0 1 19 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10L6.5 19v-3H7.5A2.5 2.5 0 0 1 5 13.5v-7z"/>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24">
+      <rect x="4" y="5.5" width="16" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M8 3.8v3.4M16 3.8v3.4M4 10h16"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M12 21s6-5.1 6-10a6 6 0 1 0-12 0c0 4.9 6 10 6 10z"/>
+      <circle cx="12" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M12 8v4.5l3 2"/>
+    </symbol>
+    <symbol id="i-gp" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M12 8.5v7M8.5 12h7"/>
+    </symbol>
+    <symbol id="i-child" viewBox="0 0 24 24">
+      <circle cx="12" cy="7.2" r="2.3" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M7.2 20v-1.3c0-2.5 2.1-4.2 4.8-4.2s4.8 1.7 4.8 4.2V20"/>
+    </symbol>
+    <symbol id="i-women" viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="3.1" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M12 11.1V20M9.2 16.2h5.6"/>
+    </symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M12 3.8s5.2 5.4 5.2 8.6a5.2 5.2 0 0 1-10.4 0C6.8 9.2 12 3.8 12 3.8z"/>
+    </symbol>
+    <symbol id="i-physio" viewBox="0 0 24 24">
+      <circle cx="7.2" cy="6" r="1.8" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M5.2 20.2l1.8-6.1-2.4-2.2 3.1-1.4 2.3 2.5 2.6-1.5"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M14 8.2a5 5 0 0 1 4.8 3.4"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M18.4 7.2v3.1h-3"/>
+    </symbol>
+    <symbol id="i-lab" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M9 3.5h6M10 3.5v5.2L6.2 17.6A3.2 3.2 0 0 0 9 21.5h6a3.2 3.2 0 0 0 2.8-3.9L14 8.7V3.5"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M8.3 14.5h7.4"/>
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M12 3.4l6.6 2.4v5.4c0 3.7-2.7 6.5-6.6 8.4-3.9-1.9-6.6-4.7-6.6-8.4V5.8L12 3.4z"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M12 8.2v6M9 11.2h6"/>
+    </symbol>
+    <symbol id="i-clip" viewBox="0 0 24 24">
+      <rect x="6" y="5" width="12" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M9 5.2V4.6A1.6 1.6 0 0 1 10.6 3h2.8A1.6 1.6 0 0 1 15 4.6v.6M8.8 11h6.4M8.8 14.5h4.2"/>
+    </symbol>
+    <symbol id="i-list" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M9 7h10M9 12h10M9 17h10"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M5 7h.1M5 12h.1M5 17h.1"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="/">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="36" height="36">
+            <rect width="32" height="32" rx="9" fill="#0b5f5b"/>
+            <path d="M16 8.5v15M8.5 16h15" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+            <circle cx="23.2" cy="8.8" r="2.3" fill="#e7a15a"/>
+          </svg>
+        </span>
+        <span>
+          <span class="logo-name">Demo Clinic</span>
+          <span class="logo-place">Baner, Pune</span>
+        </span>
+      </a>
+      <nav class="section-nav" aria-label="On this page">
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#timings">Timings</a>
+        <a href="#visit">Visit</a>
+        <a href="#questions">FAQ</a>
+      </nav>
+      <a class="btn btn-primary header-book" href="#book" aria-label="Book appointment">Book<span class="header-book-full"> appointment</span></a>
+    </div>
+  </header>
+
+  <main id="content" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow"><span class="chip">Sample website · not a real clinic</span></p>
+          <h1 id="hero-title">A calmer family clinic in Baner, Pune.</h1>
+          <p class="lede">Demo Clinic, Baner is a fictional multi-specialty clinic: general care, children, women’s health, diabetes and thyroid, physiotherapy and tests, set out for families in Baner.</p>
+          <div class="cta-row" role="group" aria-label="Sample actions">
+            <a class="btn btn-primary" href="#book">
+              <svg class="ico" aria-hidden="true"><use href="#i-calendar"></use></svg>
+              Book appointment
+            </a>
+            <a class="btn btn-secondary" href="tel:+919000000000" aria-label="Call the sample number +91 90000 00000">
+              <svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>
+              Call
+            </a>
+            <a class="btn btn-secondary" href="https://wa.me/919000000000?text=Hello%20Demo%20Clinic%2C%20Baner.%20This%20is%20a%20sample%20enquiry%20from%20the%20demo%20website." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp the sample number +91 90000 00000">
+              <svg class="ico" aria-hidden="true"><use href="#i-chat"></use></svg>
+              WhatsApp
+            </a>
+          </div>
+          <p class="fine">Sample number only: <a href="tel:+919000000000">+91 90000 00000</a>. It is not a working clinic line. WhatsApp uses the same number.</p>
+        </div>
+        <aside class="visit-card" aria-label="Sample visit details">
+          <div class="visit-head">
+            <span class="mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="36" height="36">
+                <rect width="32" height="32" rx="9" fill="#0b5f5b"/>
+                <path d="M16 8.5v15M8.5 16h15" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+                <circle cx="23.2" cy="8.8" r="2.3" fill="#e7a15a"/>
+              </svg>
+            </span>
+            <div>
+              <p class="visit-name">Demo Clinic, Baner</p>
+              <p class="visit-place">Pune · sample card</p>
+            </div>
+          </div>
+          <span class="chip">Sample details</span>
+          <ul class="fact-list">
+            <li>
+              <svg class="ico" aria-hidden="true"><use href="#i-pin"></use></svg>
+              <span>
+                <span class="fact-kicker">Area</span>
+                Baner, Pune
+              </span>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg>
+              <span>
+                <span class="fact-kicker">Sample hours</span>
+                Mon–Sat, plus Sunday morning
+              </span>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>
+              <span>
+                <span class="fact-kicker">Sample phone</span>
+                <a href="tel:+919000000000">+91 90000 00000</a>
+              </span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="section section-paper" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p><span class="chip">Sample list</span></p>
+          <h2 id="services-title">Care a family might look for</h2>
+          <p class="lede">Eight sample departments for a clinic in Baner, Pune. The wording is generic, it is not medical advice, and nobody here is taking patients.</p>
+        </div>
+        <div class="cards cards-4">
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-gp"></use></svg></div>
+            <h3>General physician</h3>
+            <p>Everyday care for fever, infections, blood pressure and other common adult concerns.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-child"></use></svg></div>
+            <h3>Paediatrics</h3>
+            <p>Check-ups, common illnesses and growth questions for children.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-women"></use></svg></div>
+            <h3>Women’s health</h3>
+            <p>Routine women’s health visits and pregnancy-related questions a family clinic may cover.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-drop"></use></svg></div>
+            <h3>Diabetes and thyroid care</h3>
+            <p>Follow-up visits built around blood sugar and thyroid reports.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-physio"></use></svg></div>
+            <h3>Physiotherapy</h3>
+            <p>Support for joint pain, posture and recovery after everyday strains.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-lab"></use></svg></div>
+            <h3>Diagnostics / lab</h3>
+            <p>Blood and urine tests coordinated with the consultation. No real lab is attached.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-shield"></use></svg></div>
+            <h3>Vaccination</h3>
+            <p>Immunisation visits for children and adults, including seasonal shots.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-clip"></use></svg></div>
+            <h3>Health check-up packages</h3>
+            <p>Set groups of tests, with placeholder prices in rupees shown below.</p>
+          </article>
+        </div>
+        <div class="fee-block">
+          <h3>Sample fee bands</h3>
+          <p class="lede">Placeholder amounts for this demo layout, including a general physician visit shown from ₹500. They are not quotes and not real fees.</p>
+          <div class="cards cards-fees">
+            <article class="fee-card">
+              <h4>Essential check</h4>
+              <p class="price">₹1,499</p>
+              <p>Sample list: blood count, fasting sugar, lipid profile.</p>
+            </article>
+            <article class="fee-card">
+              <h4>Active adult</h4>
+              <p class="price">₹2,999</p>
+              <p>Sample list: the essential tests plus thyroid, liver and kidney panels.</p>
+            </article>
+            <article class="fee-card">
+              <h4>Family pair</h4>
+              <p class="price">₹4,499</p>
+              <p>Sample bundle written for two adults. Not a package you can buy.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="doctors" class="section" aria-labelledby="doctors-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p><span class="chip">Sample profiles</span></p>
+          <h2 id="doctors-title">Placeholder clinicians</h2>
+          <p class="lede">Four generic names, illustrated with initials. These are not real people. No degrees, photos or registration numbers are invented here.</p>
+        </div>
+        <div class="cards cards-doctors">
+          <article class="doctor-card">
+            <div class="doctor-top">
+              <div class="avatar avatar-1" aria-hidden="true">AD</div>
+              <p class="chip">Sample profile</p>
+            </div>
+            <h3>Dr. A. Demo</h3>
+            <p class="specialty">General physician</p>
+            <p>Placeholder card for the general physician list. This is not a real person.</p>
+          </article>
+          <article class="doctor-card">
+            <div class="doctor-top">
+              <div class="avatar avatar-2" aria-hidden="true">SN</div>
+              <p class="chip">Sample profile</p>
+            </div>
+            <h3>Dr. Sample Name</h3>
+            <p class="specialty">Paediatrics</p>
+            <p>Placeholder card for children’s visits. The name is generic on purpose.</p>
+          </article>
+          <article class="doctor-card">
+            <div class="doctor-top">
+              <div class="avatar avatar-3" aria-hidden="true">BD</div>
+              <p class="chip">Sample profile</p>
+            </div>
+            <h3>Dr. B. Demo</h3>
+            <p class="specialty">Women’s health</p>
+            <p>Placeholder card for the women’s health list. No real clinician is identified.</p>
+          </article>
+          <article class="doctor-card">
+            <div class="doctor-top">
+              <div class="avatar avatar-4" aria-hidden="true">CS</div>
+              <p class="chip">Sample profile</p>
+            </div>
+            <h3>Dr. C. Sample</h3>
+            <p class="specialty">Physiotherapy</p>
+            <p>Placeholder card for physiotherapy. Nothing here is a real registration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="timings" class="section section-paper" aria-labelledby="timings-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p><span class="chip">Sample hours</span></p>
+          <h2 id="timings-title">A week written out plainly</h2>
+          <p class="lede">Morning and evening slots for this layout. A real clinic would replace them with its own rota, including public holidays.</p>
+        </div>
+        <div class="hours-layout">
+          <div class="table-wrap">
+            <table class="hours">
+              <caption>Sample timings for Demo Clinic, Baner. Not a real rota.</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Day</th>
+                  <th scope="col">Morning</th>
+                  <th scope="col">Evening</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Monday – Friday</th>
+                  <td>9:00 am – 1:00 pm</td>
+                  <td>5:00 pm – 8:30 pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Saturday</th>
+                  <td>9:00 am – 1:00 pm</td>
+                  <td>5:00 pm – 8:00 pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sunday</th>
+                  <td>10:00 am – 1:00 pm</td>
+                  <td><span class="closed">Closed</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <aside class="panel side-note">
+            <h3>How the sample rota reads</h3>
+            <ul>
+              <li>General physician mornings are described as open to walk-ins.</li>
+              <li>Paediatrics, women’s health and physiotherapy are appointment-first.</li>
+              <li>Home sample collection is listed only as a demo window, 7:00 am – 10:00 am.</li>
+              <li>Sample languages a Pune clinic may mention: English, Hindi and Marathi.</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p><span class="chip">Sample points</span></p>
+          <h2 id="why-title">Why choose this clinic</h2>
+          <p class="lede">Generic reasons a family clinic can publish. No awards, star ratings or patient counts — those are easy to invent, so this demo leaves them out.</p>
+        </div>
+        <div class="cards cards-2">
+          <article class="why-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-gp"></use></svg></div>
+            <h3>Everyday care in one list</h3>
+            <p>Physician, children, women’s health, physio and tests sit together, so a household can see the range.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-clock"></use></svg></div>
+            <h3>Hours you can scan</h3>
+            <p>Weekday, Saturday and Sunday slots are written out, including the evening window.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-list"></use></svg></div>
+            <h3>Plain department names</h3>
+            <p>The labels match how families ask for care, without a maze of extra pages.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-pin"></use></svg></div>
+            <h3>Written for Baner</h3>
+            <p>The page names Baner, Pune, with a map of the area rather than a stock skyline.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-phone"></use></svg></div>
+            <h3>Call or message</h3>
+            <p>Phone and WhatsApp sit beside the form, for people who would rather not type.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon-bubble" aria-hidden="true"><svg class="ico"><use href="#i-shield"></use></svg></div>
+            <h3>Checks and vaccines nearby</h3>
+            <p>Health packages, lab work and immunisation are listed with the doctors, not hidden away.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit" class="section section-paper" aria-labelledby="visit-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p><span class="chip">Sample address</span></p>
+          <h2 id="visit-title">Baner, on the map</h2>
+          <p class="lede">The map is centred on the Baner area, not on a clinic. Shop 12 at Sample Plaza is a made-up address for this layout.</p>
+        </div>
+        <div class="visit-layout">
+          <div class="map-frame">
+            <p class="map-fallback">Map of the Baner area in Pune. Sample location, not a specific clinic.</p>
+            <iframe
+              title="Map of the Baner area in Pune. Sample location for this demo, not a specific clinic."
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15080!2d73.7845!3d18.559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1730000000000!5m2!1sen!2sin"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              width="600"
+              height="360"></iframe>
+          </div>
+          <div class="panel">
+            <h3>Sample address</h3>
+            <address class="address">
+              <strong>Demo Clinic, Baner</strong><br>
+              Shop 12, Sample Plaza<br>
+              Baner Road, Baner<br>
+              Pune, Maharashtra 411045<br>
+              India
+            </address>
+            <p><a href="tel:+919000000000">+91 90000 00000</a></p>
+            <p><a href="mailto:hello@democlinic.example">hello@democlinic.example</a></p>
+            <p class="fine">Sample note: basement visitor parking at Sample Plaza is described for the layout only. Nearby names used only as context: Balewadi and Aundh.</p>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Baner,+Pune,+Maharashtra" target="_blank" rel="noopener noreferrer">Open the Baner area in Google Maps<span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="questions" class="section" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p><span class="chip">Common questions</span></p>
+          <h2 id="faq-title">Questions families ask</h2>
+          <p class="lede">Straight answers for this demo. A real clinic can keep the questions and replace the sample details.</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary><h3>Is Demo Clinic, Baner a real clinic?</h3></summary>
+            <div class="faq-body"><p>No. Demo Clinic, Baner is a fictional clinic created for this sample website. Zenetic (zenetic.in), a digital agency in Pune, uses the page to show real clinics how their own site could look. The address, phone number, doctors, timings and fees are placeholders.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>Where is the clinic shown on this page?</h3></summary>
+            <div class="faq-body"><p>The sample address is Shop 12, Sample Plaza, Baner Road, Baner, Pune, Maharashtra 411045. The map is centred on the Baner area of Pune in general. It is not a pin for a real clinic.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>What are the clinic timings?</h3></summary>
+            <div class="faq-body"><p>Sample hours are Monday to Friday, 9:00 am to 1:00 pm and 5:00 pm to 8:30 pm; Saturday, 9:00 am to 1:00 pm and 5:00 pm to 8:00 pm; and Sunday, 10:00 am to 1:00 pm. These times are for the demo layout only.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>Do you accept walk-in patients?</h3></summary>
+            <div class="faq-body"><p>On this sample timetable, morning hours for the general physician are described as open to walk-ins. Paediatrics, women's health and physiotherapy are shown as appointment-first. A real clinic would confirm availability on the day. This demo cannot take a walk-in.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>How do I book an appointment?</h3></summary>
+            <div class="faq-body"><p>Use the appointment request form on this page, or the Call and WhatsApp links. The form only checks that the fields look complete. Submitting it does not send or store your details. You can then choose to open WhatsApp with the same details, still using the sample number +91 90000 00000.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>Do you offer cashless insurance?</h3></summary>
+            <div class="faq-body"><p>This demo does not list any real insurer or cashless tie-up. A clinic website might say that some cashless facilities can be arranged, and that patients should confirm the insurer, the treatment and the approval before the visit. Cash, card and UPI are shown here only as sample payment methods.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>Is parking available?</h3></summary>
+            <div class="faq-body"><p>The fictional address mentions visitor parking in the basement of Sample Plaza. That note exists for the layout only. It is not a real car park, and this page cannot reserve a bay.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>Do you collect lab samples from home?</h3></summary>
+            <div class="faq-body"><p>Home sample collection is listed as a sample service for Baner and nearby parts of Pune, with a morning window of 7:00 am to 10:00 am. This website does not collect samples, book a phlebotomist or share results.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>Which departments are listed?</h3></summary>
+            <div class="faq-body"><p>The sample departments are general physician, paediatrics, women's health, diabetes and thyroid care, physiotherapy, diagnostics and lab, vaccination, and health check-up packages.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><h3>What should I bring, and how would I pay?</h3></summary>
+            <div class="faq-body"><p>A real clinic visit usually needs a photo ID, earlier reports and a list of current medicines. You do not need to bring anything to use this demo. Sample payment methods shown are cash, card and UPI, with placeholder fees in rupees that are not real charges.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="book" class="section section-paper" aria-labelledby="book-title">
+      <div class="wrap book-layout">
+        <div class="section-head">
+          <p><span class="chip">Nothing is sent</span></p>
+          <h2 id="book-title">Request an appointment</h2>
+          <p class="lede" id="form-note">Add a name, mobile, date and department. This page only checks the fields. It does not email, store or forward them. Afterwards you can open WhatsApp yourself, still to the sample number.</p>
+        </div>
+        <div class="book-card">
+          <noscript>
+            <p class="noscript-note">JavaScript is off, so the form cannot run its demo check. Call or WhatsApp still open the sample number. Nothing is sent from this page either way.</p>
+          </noscript>
+          <form id="appointment-form" action="#book" method="get" novalidate aria-describedby="form-note">
+            <p id="form-alert" class="form-alert" role="alert" hidden></p>
+            <div class="form-grid">
+              <div class="field">
+                <label for="full-name">Full name <span class="req">(required)</span></label>
+                <input id="full-name" name="name" type="text" autocomplete="name" required maxlength="80" aria-describedby="full-name-error">
+                <p id="full-name-error" class="field-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="phone">Mobile number <span class="req">(required)</span></label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="16" placeholder="98765 43210" aria-describedby="phone-hint phone-error">
+                <p id="phone-hint" class="hint">10-digit Indian mobile. Your number, not the clinic’s sample line.</p>
+                <p id="phone-error" class="field-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="preferred-date">Preferred date <span class="req">(required)</span></label>
+                <input id="preferred-date" name="date" type="date" required aria-describedby="date-hint date-error">
+                <p id="date-hint" class="hint">Today or a later date, within 6 months. Sample request only.</p>
+                <p id="date-error" class="field-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="department">Department <span class="req">(required)</span></label>
+                <div class="select-wrap">
+                  <select id="department" name="department" required aria-describedby="department-error">
+                    <option value="">Select a department</option>
+                    <option>General physician</option>
+                    <option>Paediatrics</option>
+                    <option>Women’s health</option>
+                    <option>Diabetes and thyroid care</option>
+                    <option>Physiotherapy</option>
+                    <option>Diagnostics / lab</option>
+                    <option>Vaccination</option>
+                    <option>Health check-up package</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+                <p id="department-error" class="field-error" hidden></p>
+              </div>
+              <div class="field field-span">
+                <label for="message">Message <span class="req">(optional)</span></label>
+                <textarea id="message" name="message" maxlength="500" rows="4" aria-describedby="message-hint message-error"></textarea>
+                <p id="message-hint" class="hint">Up to 500 characters. Do not include medical reports on this demo.</p>
+                <p id="message-error" class="field-error" hidden></p>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" aria-describedby="submit-hint">Request appointment</button>
+              <p id="submit-hint" class="hint">You will only see a confirmation on this page. A clinic does not receive it.</p>
+            </div>
+          </form>
+          <div id="form-success" class="success" role="status" hidden>
+            <h3 id="success-title" tabindex="-1">This is a demo. Nothing was sent.</h3>
+            <p>No clinic received this request, and this website did not store it. If you want to practise the enquiry, open WhatsApp with the same details. That message still goes only to the sample number +91 90000 00000.</p>
+            <dl class="summary" id="success-summary"></dl>
+            <div class="success-actions">
+              <a id="success-whatsapp" class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://wa.me/919000000000" aria-label="Send these details on WhatsApp to the sample number +91 90000 00000">Send these details on WhatsApp</a>
+              <button type="button" class="btn btn-ghost" id="edit-request">Edit details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">Demo Clinic, Baner</p>
+        <p>A fictional multi-specialty family clinic website for Baner, Pune. Every address, fee, doctor and phone number on this page is sample content.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-heading">On this page</p>
+        <ul class="footer-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#timings">Timings</a></li>
+          <li><a href="#why">Why choose us</a></li>
+          <li><a href="#visit">Location</a></li>
+          <li><a href="#questions">FAQ</a></li>
+          <li><a href="#book">Book appointment</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-heading">Sample contact</p>
+        <address class="address">
+          Shop 12, Sample Plaza, Baner Road<br>
+          Baner, Pune, Maharashtra 411045<br>
+          <a href="tel:+919000000000">+91 90000 00000</a><br>
+          <a href="mailto:hello@democlinic.example">hello@democlinic.example</a>
+        </address>
+        <p class="fine">Demo details only. Not a monitored inbox or phone.</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© 2026 Demo Clinic, Baner. Sample site, not a real clinic.</p>
+      <a class="footer-credit" href="https://zenetic.in" target="_blank" rel="noopener noreferrer">Demo by Zenetic · zenetic.in<span class="sr-only"> (opens in a new tab)</span></a>
+    </div>
+  </footer>
+
+  <nav class="sticky-cta" aria-label="Call, WhatsApp or book">
+    <a href="tel:+919000000000" aria-label="Call the sample number +91 90000 00000">
+      <svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg>
+      Call
+    </a>
+    <a href="https://wa.me/919000000000?text=Hello%20Demo%20Clinic%2C%20Baner.%20This%20is%20a%20sample%20enquiry%20from%20the%20demo%20website." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp the sample number +91 90000 00000">
+      <svg class="ico" aria-hidden="true"><use href="#i-chat"></use></svg>
+      WhatsApp
+    </a>
+    <a class="sticky-book" href="#book" aria-label="Book appointment">
+      <svg class="ico" aria-hidden="true"><use href="#i-calendar"></use></svg>
+      Book
+    </a>
+  </nav>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

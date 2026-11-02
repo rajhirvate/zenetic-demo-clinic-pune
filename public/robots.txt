@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zenetic-demo-clinic-pune.vercel.app/sitemap.xml

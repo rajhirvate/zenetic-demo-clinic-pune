@@ -1,0 +1,24 @@
+{
+  "name": "Demo Clinic, Baner",
+  "short_name": "Demo Clinic",
+  "description": "Sample website for a fictional family clinic in Baner, Pune. Not a real clinic.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f3f0ea",
+  "theme_color": "#084743",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/favicon-48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
